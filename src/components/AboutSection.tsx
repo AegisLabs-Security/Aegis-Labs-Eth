@@ -1,4 +1,4 @@
-import shield3d from "@/assets/aeigis-shield-3d.jpg";
+import aboutImg from "@/assets/aegis-about.jpeg";
 import ScrollReveal from "./ScrollReveal";
 import { Brain, Search, ShieldCheck, Lock, Globe, Layers } from "lucide-react";
 
@@ -19,8 +19,8 @@ export default function AboutSection() {
           <ScrollReveal>
             <div className="relative">
               <img
-                src={shield3d}
-                alt="Aeigis Shield"
+                src={aboutImg}
+                alt="About Aegis Labs"
                 className="rounded-2xl w-full shadow-2xl shadow-neon/10"
               />
               <div className="absolute inset-0 rounded-2xl border border-neon/20" />
