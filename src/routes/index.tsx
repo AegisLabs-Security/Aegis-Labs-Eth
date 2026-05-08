@@ -1,10 +1,15 @@
-import { createFileRoute } from "@tanstack/react-router";
+import { createFileRoute, Link } from "@tanstack/react-router";
 import Navbar from "@/components/Navbar";
-import HeroSection from "@/components/HeroSection";
-import TrustSection from "@/components/TrustSection";
-import SocialSection from "@/components/SocialSection";
 import Footer from "@/components/Footer";
 import ParticleField from "@/components/ParticleField";
+import HeroSection from "@/components/HeroSection";
+import TrustSection from "@/components/TrustSection";
+import TechnologySection from "@/components/TechnologySection";
+import EcosystemSection from "@/components/EcosystemSection";
+import DashboardSection from "@/components/DashboardSection";
+import RoadmapSection from "@/components/RoadmapSection";
+import CTASection from "@/components/CTASection";
+import SocialSection from "@/components/SocialSection";
 
 export const Route = createFileRoute("/")({
   component: Index,
@@ -32,6 +37,11 @@ function Index() {
       <main className="relative z-10">
         <HeroSection />
         <TrustSection />
+        <TechnologySection />
+        <EcosystemSection />
+        <DashboardSection />
+        <RoadmapSection />
+        <CTASection />
         <SocialSection />
       </main>
       <Footer />

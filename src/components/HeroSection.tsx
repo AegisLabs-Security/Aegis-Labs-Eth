@@ -73,14 +73,11 @@ export default function HeroSection() {
         </p>
 
         <div className="mt-10 flex flex-wrap items-center justify-center gap-4 animate-fade-up" style={{ animationDelay: "0.5s" }}>
-          <Link to="/dashboard" className="neon-btn rounded-xl px-8 py-4 text-sm tracking-wider">
-            Launch Shield
+          <Link to="/about" className="neon-btn rounded-xl px-8 py-4 text-sm tracking-wider">
+            Learn More
           </Link>
-          <Link to="/security" className="neon-btn-outline rounded-xl px-8 py-4 text-sm tracking-wider">
-            Scan Contract
-          </Link>
-          <Link to="/technology" className="neon-btn-outline rounded-xl px-8 py-4 text-sm tracking-wider">
-            Explore Security
+          <Link to="/contact" className="neon-btn-outline rounded-xl px-8 py-4 text-sm tracking-wider">
+            Get In Touch
           </Link>
         </div>
 

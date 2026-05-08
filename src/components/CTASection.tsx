@@ -24,8 +24,8 @@ export default function CTASection() {
 
         <ScrollReveal delay={0.2}>
           <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
-            <a href="#dashboard" className="neon-btn rounded-xl px-8 py-4 text-sm tracking-wider">Launch App</a>
-            <a href="#" className="neon-btn-outline rounded-xl px-8 py-4 text-sm tracking-wider">Contact Team</a>
+            <a href="/about" className="neon-btn rounded-xl px-8 py-4 text-sm tracking-wider">Learn More</a>
+            <a href="/contact" className="neon-btn-outline rounded-xl px-8 py-4 text-sm tracking-wider">Contact Team</a>
           </div>
         </ScrollReveal>
       </div>

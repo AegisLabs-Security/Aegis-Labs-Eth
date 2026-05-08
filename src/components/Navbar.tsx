@@ -5,13 +5,6 @@ import logoImg from "@/assets/aeigis-logo.jpg";
 const navItems = [
   { label: "Home", to: "/" },
   { label: "About", to: "/about" },
-  { label: "Technology", to: "/technology" },
-  { label: "Security", to: "/security" },
-  { label: "Ecosystem", to: "/ecosystem" },
-  { label: "Dashboard", to: "/dashboard" },
-  { label: "Roadmap", to: "/roadmap" },
-  { label: "Community", to: "/community" },
-  { label: "FAQ", to: "/faq" },
   { label: "Contact", to: "/contact" },
 ] as const;
 
@@ -56,11 +49,11 @@ export default function Navbar() {
           </div>
 
           <div className="hidden lg:flex items-center gap-3">
-            <Link to="/contact" className="neon-btn-outline rounded-lg px-5 py-2.5 text-sm">
-              Contact Team
+            <Link to="/about" className="neon-btn-outline rounded-lg px-5 py-2.5 text-sm">
+              Learn More
             </Link>
-            <Link to="/dashboard" className="neon-btn rounded-lg px-5 py-2.5 text-sm">
-              Launch Shield
+            <Link to="/contact" className="neon-btn rounded-lg px-5 py-2.5 text-sm">
+              Get In Touch
             </Link>
           </div>
 
@@ -93,8 +86,8 @@ export default function Navbar() {
               </Link>
             ))}
             <div className="flex flex-col gap-2 pt-4">
-              <Link to="/contact" className="neon-btn-outline rounded-lg px-5 py-3 text-sm text-center">Contact Team</Link>
-              <Link to="/dashboard" className="neon-btn rounded-lg px-5 py-3 text-sm text-center">Launch Shield</Link>
+              <Link to="/about" className="neon-btn-outline rounded-lg px-5 py-3 text-sm text-center">Learn More</Link>
+              <Link to="/contact" className="neon-btn rounded-lg px-5 py-3 text-sm text-center">Get In Touch</Link>
             </div>
           </div>
         </div>

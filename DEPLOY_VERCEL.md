@@ -1,6 +1,6 @@
 # Deploying to Vercel
 
-This project is configured to build correctly in both Lovable and Vercel. Vercel is detected automatically through the `VERCEL=1` environment variable and uses Nitro's `vercel` preset.
+This project is configured to build correctly on Vercel. Vercel is detected automatically through the `VERCEL=1` environment variable and uses Nitro's `vercel` preset.
 
 ## Deploy
 

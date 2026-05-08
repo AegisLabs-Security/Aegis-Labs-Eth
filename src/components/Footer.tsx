@@ -2,11 +2,8 @@ import { Link } from "@tanstack/react-router";
 import logoImg from "@/assets/aeigis-logo.jpg";
 
 const links = [
+  { label: "Home", to: "/" },
   { label: "About", to: "/about" },
-  { label: "Technology", to: "/technology" },
-  { label: "Security", to: "/security" },
-  { label: "Ecosystem", to: "/ecosystem" },
-  { label: "Roadmap", to: "/roadmap" },
   { label: "Contact", to: "/contact" },
 ] as const;
 
