@@ -1,7 +1,7 @@
 import ScrollReveal from "./ScrollReveal";
 
 const phases = [
-  { phase: "Phase 1", title: "Core Infrastructure Launch", desc: "Foundation of the Aeigis security platform and initial Ethereum mainnet integration." },
+  { phase: "Phase 1", title: "Core Infrastructure Launch", desc: "Foundation of the Aegis security platform and initial Ethereum mainnet integration." },
   { phase: "Phase 2", title: "AI Threat Intelligence", desc: "Deployment of neural network-based threat detection and behavioral analysis models." },
   { phase: "Phase 3", title: "Ethereum & L2 Expansion", desc: "Full integration with Arbitrum, Optimism, Base, Polygon, and emerging rollups." },
   { phase: "Phase 4", title: "Cross-Chain Security", desc: "Unified security layer across bridges, interoperability protocols, and multi-chain DeFi." },
