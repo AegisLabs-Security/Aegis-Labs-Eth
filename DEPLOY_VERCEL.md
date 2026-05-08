@@ -7,7 +7,7 @@ This project is configured to build correctly on Vercel. Vercel is detected auto
 1. Push your repo to GitHub
 2. Go to [vercel.com/new](https://vercel.com/new)
 3. Import the repository
-4. Vercel will run `bun install` and `bun run build` from `vercel.json`
+4. Vercel will run `npm install` and `npm run build` from `vercel.json`
 5. Nitro will generate `.vercel/output`, which Vercel serves directly
 
 ## References
