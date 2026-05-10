@@ -59,7 +59,7 @@ export default function HeroSection() {
       <div className="relative z-10 mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 pt-32 pb-20 text-center">
         <div className="inline-flex items-center gap-2 glass-panel rounded-full px-5 py-2 mb-8 animate-fade-up" style={{ animationDelay: "0.1s" }}>
           <span className="h-2 w-2 rounded-full bg-neon animate-pulse" />
-          <span className="text-xs tracking-wider text-muted-foreground uppercase">Aegis Shield — AI-Powered Web3 Security</span>
+          <span className="text-xs tracking-wider text-muted-foreground uppercase">Aegis Labs — AI-Powered Web3 Security</span>
         </div>
 
         <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold leading-[0.95] tracking-tight animate-fade-up" style={{ animationDelay: "0.3s" }}>
@@ -69,7 +69,7 @@ export default function HeroSection() {
         </h1>
 
         <p className="mt-6 text-base sm:text-lg text-muted-foreground max-w-2xl mx-auto leading-relaxed animate-fade-up" style={{ animationDelay: "0.5s" }}>
-          Aegis Shield is the AI-powered security layer of Aegis Labs, built to protect users, builders, and protocols from on-chain threats before they become real losses.
+          Aegis Labs is the AI-powered security layer of Aegis Labs, built to protect users, builders, and protocols from on-chain threats before they become real losses.
         </p>
 
         <div className="mt-10 flex flex-wrap items-center justify-center gap-4 animate-fade-up" style={{ animationDelay: "0.5s" }}>
