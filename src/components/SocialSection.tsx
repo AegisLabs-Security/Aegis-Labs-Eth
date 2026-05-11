@@ -4,7 +4,7 @@ const socials = [
   { label: "X / Twitter", href: "https://x.com/AegisLabsEth", icon: "𝕏" },
   { label: "Telegram", href: "https://t.me/AegisLabsEth", icon: "✈" },
   { label: "GitHub", href: "https://github.com/AegisLabs-Security", icon: "⌨" },
-  { label: "Whitepaper", href: "/Aegis Labs Whitepaper Website Version V1.pdf", icon: "📄" },
+  { label: "Whitepaper", href: "https://aegislabs.gitbook.io/aegis-labs-whitepaper", icon: "📄" },
 ];
 
 export default function SocialSection() {

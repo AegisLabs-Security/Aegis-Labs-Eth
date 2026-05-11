@@ -11,7 +11,7 @@ const socials = [
   { label: "X / Twitter", href: "https://x.com/AegisLabsEth" },
   { label: "Telegram", href: "https://t.me/AegisLabsEth" },
   { label: "GitHub", href: "https://github.com/AegisLabs-Security" },
-  { label: "Whitepaper", href: "/Aegis Labs Whitepaper Website Version V1.pdf" },
+  { label: "Whitepaper", href: "https://aegislabs.gitbook.io/aegis-labs-whitepaper" },
 ];
 
 export default function Footer() {
@@ -59,7 +59,7 @@ export default function Footer() {
             <ul className="space-y-2">
               <li><a href="#" className="text-sm text-muted-foreground hover:text-neon transition-colors">Privacy Policy</a></li>
               <li><a href="#" className="text-sm text-muted-foreground hover:text-neon transition-colors">Terms of Service</a></li>
-              <li><a href="/Aegis Labs Whitepaper Website Version V1.pdf" target="_blank" className="text-sm text-muted-foreground hover:text-neon transition-colors">Whitepaper</a></li>
+              <li><a href="https://aegislabs.gitbook.io/aegis-labs-whitepaper" target="_blank" className="text-sm text-muted-foreground hover:text-neon transition-colors">Whitepaper</a></li>
             </ul>
           </div>
         </div>
