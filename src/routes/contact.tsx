@@ -23,7 +23,7 @@ const contactOptions = [
   { icon: MessageSquare, label: "X / Twitter", href: "https://x.com/AegisLabsEth", desc: "Follow us for real-time updates, threat alerts, and security insights." },
   { icon: Mail, label: "Telegram", href: "https://t.me/AegisLabsEth", desc: "Join the community for discussions, support, and early access." },
   { icon: Code2, label: "GitHub", href: "https://github.com/AegisLabs-Security", desc: "Explore our open-source tools, SDKs, and security infrastructure." },
-  { icon: FileText, label: "Whitepaper", href: "/Aegis_Labs_Whitepaper_V0_1.pdf", desc: "Read the full Aegis Labs whitepaper and security architecture." },
+  { icon: FileText, label: "Whitepaper", href: "/Aegis Labs Whitepaper Website Version V1.pdf", desc: "Read the full Aegis Labs whitepaper and security architecture." },
 ];
 
 const partnershipAreas = [
@@ -95,7 +95,7 @@ function Contact() {
 
           <ScrollReveal>
             <div className="text-center">
-              <a href="/Aegis_Labs_Whitepaper_V0_1.pdf" target="_blank" className="neon-btn rounded-xl px-8 py-4 text-sm tracking-wider inline-block">
+              <a href="/Aegis Labs Whitepaper Website Version V1.pdf" target="_blank" className="neon-btn rounded-xl px-8 py-4 text-sm tracking-wider inline-block">
                 Download Whitepaper
               </a>
             </div>

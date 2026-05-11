@@ -69,8 +69,7 @@ export default function HeroSection() {
         </h1>
 
         <p className="mt-6 text-base sm:text-lg text-muted-foreground max-w-2xl mx-auto leading-relaxed animate-fade-up" style={{ animationDelay: "0.5s" }}>
-          Aegis Labs is the AI-powered security layer of Aegis Labs, built to protect users, builders, and protocols from on-chain threats before they become real losses.
-        </p>
+Aegis Labs is the AI-powered security layer , built to protect users, builders, and protocols from on-chain threats before they become real losses.        </p>
 
         <div className="mt-10 flex flex-wrap items-center justify-center gap-4 animate-fade-up" style={{ animationDelay: "0.5s" }}>
           <Link to="/about" className="neon-btn rounded-xl px-8 py-4 text-sm tracking-wider">
