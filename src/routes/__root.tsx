@@ -35,13 +35,19 @@ export const Route = createRootRoute({
       { property: "og:title", content: "Aegis Labs" },
       { property: "og:description", content: "Scan Before You Trust. Protect Before You Connect." },
       { property: "og:type", content: "website" },
+      { property: "og:image", content: "/og-image.jpg" },
       { name: "twitter:card", content: "summary_large_image" },
       { name: "twitter:site", content: "@AegisLabsEth" },
+      { name: "twitter:image", content: "/og-image.jpg" },
     ],
     links: [
       {
         rel: "stylesheet",
         href: appCss,
+      },
+      {
+        rel: "icon",
+        href: "/favicon.ico",
       },
     ],
   }),

@@ -20,11 +20,11 @@ export const Route = createFileRoute("/")({
       { property: "og:title", content: "Aegis Labs — Web3 Security Infrastructure" },
       { property: "og:description", content: "Scan Before You Trust. Protect Before You Connect. AI-powered blockchain defense for Web3." },
       { property: "og:type", content: "website" },
-      { property: "og:image", content: "/images/aeigis-og.jpg" },
+      { property: "og:image", content: "/og-image.jpg" },
       { name: "twitter:card", content: "summary_large_image" },
       { name: "twitter:title", content: "Aegis Labs — Web3 Security Infrastructure" },
       { name: "twitter:description", content: "Scan Before You Trust. Protect Before You Connect." },
-      { name: "twitter:image", content: "/images/aeigis-og.jpg" },
+      { name: "twitter:image", content: "/og-image.jpg" },
     ],
   }),
 });
