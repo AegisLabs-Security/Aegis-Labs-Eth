@@ -9,7 +9,7 @@ const links = [
 
 const socials = [
   { label: "X / Twitter", href: "https://x.com/AegisLabsEth" },
-  { label: "Telegram", href: "https://t.me/AegisLabsEth" },
+  { label: "Telegram", href: "https://t.me/AegisLabsOfficial" },
   { label: "GitHub", href: "https://github.com/AegisLabs-Security" },
   { label: "Whitepaper", href: "https://aegislabs.gitbook.io/aegis-labs-whitepaper" },
 ];

@@ -21,7 +21,7 @@ export const Route = createFileRoute("/contact")({
 
 const contactOptions = [
   { icon: MessageSquare, label: "X / Twitter", href: "https://x.com/AegisLabsEth", desc: "Follow us for real-time updates, threat alerts, and security insights." },
-  { icon: Mail, label: "Telegram", href: "https://t.me/AegisLabsEth", desc: "Join the community for discussions, support, and early access." },
+  { icon: Mail, label: "Telegram", href: "https://t.me/AegisLabsOfficial", desc: "Join the community for discussions, support, and early access." },
   { icon: Code2, label: "GitHub", href: "https://github.com/AegisLabs-Security", desc: "Explore our open-source tools, SDKs, and security infrastructure." },
   { icon: FileText, label: "Whitepaper", href: "https://aegislabs.gitbook.io/aegis-labs-whitepaper", desc: "Read the full Aegis Labs whitepaper and security architecture." },
 ];
