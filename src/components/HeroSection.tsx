@@ -71,13 +71,38 @@ export default function HeroSection() {
         <p className="mt-6 text-base sm:text-lg text-muted-foreground max-w-2xl mx-auto leading-relaxed animate-fade-up" style={{ animationDelay: "0.5s" }}>
 Aegis Labs is the AI-powered security layer , built to protect users, builders, and protocols from on-chain threats before they become real losses.        </p>
 
-        <div className="mt-10 flex flex-wrap items-center justify-center gap-4 animate-fade-up" style={{ animationDelay: "0.5s" }}>
+        <div className="mt-8 flex flex-wrap items-center justify-center gap-4 animate-fade-up" style={{ animationDelay: "0.5s" }}>
           <Link to="/about" className="neon-btn rounded-xl px-8 py-4 text-sm tracking-wider">
             Learn More
           </Link>
           <Link to="/contact" className="neon-btn-outline rounded-xl px-8 py-4 text-sm tracking-wider">
             Get In Touch
           </Link>
+        </div>
+
+        <div className="mt-10 glass-panel rounded-xl p-6 max-w-2xl mx-auto animate-fade-up" style={{ animationDelay: "0.7s" }}>
+          <div className="text-sm text-muted-foreground mb-2 tracking-wider uppercase">$AEGIS Contract Address</div>
+          <div className="bg-background/50 rounded-lg px-4 py-3 font-mono text-sm text-foreground break-all select-all">
+            0xfc4dbd98c63ec58fecf3b0bcf617fb079e0a2b5c
+          </div>
+          <div className="mt-4 flex flex-wrap items-center justify-center gap-4">
+            <a 
+              href="https://ponsfamily.com/launchpad/0xfc4dbd98c63ec58fecf3b0bcf617fb079e0a2b5c" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="neon-btn rounded-xl px-6 py-3 text-sm tracking-wider"
+            >
+              Buy $AEGIS
+            </a>
+            <a 
+              href="https://dexscreener.com/robinhood/0x868070803d21dd6dbc5d68eb1272e9e7178425cf" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="neon-btn-outline rounded-xl px-6 py-3 text-sm tracking-wider"
+            >
+              View Chart
+            </a>
+          </div>
         </div>
 
         <div className="mt-20 grid grid-cols-2 md:grid-cols-4 gap-6 animate-fade-up" style={{ animationDelay: "0.9s" }}>
