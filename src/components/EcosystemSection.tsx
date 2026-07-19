@@ -1,22 +1,22 @@
 import ScrollReveal from "./ScrollReveal";
 import ethereumLogo from "@/assets/chains/ethereum.png";
 import arbitrumLogo from "@/assets/chains/arbitrum.png";
-import optimismLogo from "@/assets/chains/optimism.png";
-import baseLogo from "@/assets/chains/base.png";
+import baseLogo from "@/assets/chains/base.jpeg";
 import polygonLogo from "@/assets/chains/polygon.png";
-import zksyncLogo from "@/assets/chains/zksync.png";
-import scrollLogo from "@/assets/chains/scroll.png";
-import lineaLogo from "@/assets/chains/linea.png";
+import bscLogo from "@/assets/chains/bsc.png";
+import monadLogo from "@/assets/chains/monad.png";
+import robinhoodLogo from "@/assets/chains/robinhood.png";
+import arcLogo from "@/assets/chains/ARC.jpg";
 
 const chains = [
   { name: "Ethereum", logo: ethereumLogo },
   { name: "Arbitrum", logo: arbitrumLogo },
-  { name: "Optimism", logo: optimismLogo },
   { name: "Base", logo: baseLogo },
   { name: "Polygon", logo: polygonLogo },
-  { name: "zkSync", logo: zksyncLogo },
-  { name: "Scroll", logo: scrollLogo },
-  { name: "Linea", logo: lineaLogo },
+  { name: "BSC", logo: bscLogo },
+  { name: "Monad", logo: monadLogo },
+  { name: "Robinhood", logo: robinhoodLogo },
+  { name: "ARC", logo: arcLogo },
 ];
 
 export default function EcosystemSection() {
