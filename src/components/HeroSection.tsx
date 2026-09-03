@@ -120,12 +120,12 @@ export default function HeroSection() {
           <div className="text-xs tracking-[0.2em] text-neon uppercase mb-1 font-bold">
             $AEGIS — ARC CHAIN CONTRACT
           </div>
-          <div className="bg-background/50 rounded-lg px-4 py-3 font-mono text-sm text-muted-foreground italic tracking-widest select-all text-center">
-            ⏳ Coming Soon
+          <div className="bg-background/50 rounded-lg px-4 py-3 font-mono text-sm text-foreground break-all select-all">
+            0x47d81c049282bf577ce35d3994a6a916a9b761cc
           </div>
           <div className="mt-4 flex flex-wrap items-center justify-center gap-4">
             <a
-              href="https://radardex.pro"
+              href="https://radardex.pro/#0x47D81c049282Bf577cE35D3994a6A916A9b761CC"
               target="_blank"
               rel="noopener noreferrer"
               className="neon-btn rounded-xl px-6 py-3 text-sm tracking-wider"
@@ -133,7 +133,7 @@ export default function HeroSection() {
               Buy $AEGIS
             </a>
             <a
-              href="https://radardex.pro"
+              href="https://radardex.pro/#0x47D81c049282Bf577cE35D3994a6A916A9b761CC"
               target="_blank"
               rel="noopener noreferrer"
               className="neon-btn-outline rounded-xl px-6 py-3 text-sm tracking-wider"

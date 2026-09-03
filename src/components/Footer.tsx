@@ -90,7 +90,7 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="https://radardex.pro"
+                  href="https://radardex.pro/#0x47D81c049282Bf577cE35D3994a6A916A9b761CC"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-sm text-muted-foreground hover:text-neon transition-colors"
