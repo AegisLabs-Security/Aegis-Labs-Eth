@@ -10,7 +10,14 @@ export default function ParticleField() {
     if (!ctx) return;
 
     let animId: number;
-    const particles: { x: number; y: number; vx: number; vy: number; size: number; opacity: number }[] = [];
+    const particles: {
+      x: number;
+      y: number;
+      vx: number;
+      vy: number;
+      size: number;
+      opacity: number;
+    }[] = [];
 
     const resize = () => {
       canvas.width = window.innerWidth;
@@ -70,10 +77,6 @@ export default function ParticleField() {
   }, []);
 
   return (
-    <canvas
-      ref={canvasRef}
-      className="fixed inset-0 pointer-events-none"
-      style={{ zIndex: 1 }}
-    />
+    <canvas ref={canvasRef} className="fixed inset-0 pointer-events-none" style={{ zIndex: 1 }} />
   );
 }

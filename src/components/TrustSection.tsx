@@ -2,12 +2,36 @@ import { Shield, Eye, Lock, Activity, Globe, Zap } from "lucide-react";
 import ScrollReveal from "./ScrollReveal";
 
 const items = [
-  { icon: Eye, title: "AI Threat Detection", desc: "Machine learning models analyzing blockchain transactions in real-time" },
-  { icon: Shield, title: "Smart Contract Defense", desc: "Automated vulnerability scanning and exploit prevention systems" },
-  { icon: Lock, title: "Quantum-Resistant Encryption", desc: "Post-quantum cryptographic protocols for future-proof security" },
-  { icon: Activity, title: "Real-Time Monitoring", desc: "24/7 automated surveillance across all Web3 networks" },
-  { icon: Globe, title: "Cross-Chain Security", desc: "Unified protection across L1, L2, and cross-chain bridges" },
-  { icon: Zap, title: "Autonomous Response", desc: "AI-driven incident response with zero human intervention delay" },
+  {
+    icon: Eye,
+    title: "AI Threat Detection",
+    desc: "Machine learning models analyzing ARC Chain transactions in real-time",
+  },
+  {
+    icon: Shield,
+    title: "Smart Contract Defense",
+    desc: "Automated vulnerability scanning for ARC-native contracts",
+  },
+  {
+    icon: Lock,
+    title: "Quantum-Resistant Encryption",
+    desc: "Post-quantum cryptographic protocols native to ARC Chain",
+  },
+  {
+    icon: Activity,
+    title: "Real-Time Monitoring",
+    desc: "24/7 automated surveillance across the ARC ecosystem",
+  },
+  {
+    icon: Globe,
+    title: "Cross-Chain Security",
+    desc: "Unified protection bridging ARC to L1, L2, and cross-chain bridges",
+  },
+  {
+    icon: Zap,
+    title: "Autonomous Response",
+    desc: "AI-driven incident response on ARC with zero human delay",
+  },
 ];
 
 export default function TrustSection() {
@@ -16,8 +40,12 @@ export default function TrustSection() {
       <div className="relative z-10 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <ScrollReveal>
           <div className="text-center mb-16">
-            <p className="text-xs tracking-widest text-neon uppercase mb-3">Trust Infrastructure</p>
-            <h2 className="text-3xl sm:text-4xl font-bold">Enterprise-Grade Security</h2>
+            <p className="text-xs tracking-widest text-neon uppercase mb-3">
+              ⚡ Trust Infrastructure
+            </p>
+            <h2 className="text-3xl sm:text-4xl font-bold">
+              Enterprise Security — ARC Chain Native
+            </h2>
           </div>
         </ScrollReveal>
 

@@ -29,15 +29,22 @@ export const Route = createRootRoute({
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Aegis Labs — Web3 Security Infrastructure" },
-      { name: "description", content: "Scan Before You Trust. Protect Before You Connect. AI-powered Web3 security infrastructure by Aegis Labs." },
+      { title: "Aegis Labs — Live on ARC Chain | AI Security Layer" },
+      {
+        name: "description",
+        content:
+          "⚡ Live on ARC Chain — Scan Before You Trust. Protect Before You Connect. AI-powered Web3 security infrastructure native to ARC ecosystem by Aegis Labs.",
+      },
       { name: "author", content: "Aegis Labs" },
-      { property: "og:title", content: "Aegis Labs" },
-      { property: "og:description", content: "Scan Before You Trust. Protect Before You Connect." },
+      { property: "og:title", content: "Aegis Labs — Live on ARC Chain" },
+      {
+        property: "og:description",
+        content: "⚡ Live on ARC Chain. Scan Before You Trust. Protect Before You Connect.",
+      },
       { property: "og:type", content: "website" },
       { property: "og:image", content: "/og-image.jpg" },
       { name: "twitter:card", content: "summary_large_image" },
-      { name: "twitter:site", content: "@AegisLabsEth" },
+      { name: "twitter:site", content: "@AegisLabsArc" },
       { name: "twitter:image", content: "/og-image.jpg" },
     ],
     links: [

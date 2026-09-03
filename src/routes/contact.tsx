@@ -5,31 +5,64 @@ import ParticleField from "@/components/ParticleField";
 import CTASection from "@/components/CTASection";
 import SocialSection from "@/components/SocialSection";
 import ScrollReveal from "@/components/ScrollReveal";
-import { Mail, MessageSquare, Code2, FileText, Users, Shield } from "lucide-react";
+import { MessageSquare, Code2, FileText, Users, Shield } from "lucide-react";
 
 export const Route = createFileRoute("/contact")({
   component: Contact,
   head: () => ({
     meta: [
-      { title: "Contact — Aegis Labs" },
-      { name: "description", content: "Get in touch with Aegis Labs. Partner with us to secure the future of Web3." },
-      { property: "og:title", content: "Contact — Aegis Labs" },
-      { property: "og:description", content: "Protect The Future of Web3. Contact Aegis Labs." },
+      { title: "Contact — Aegis Labs | Live on ARC Chain" },
+      {
+        name: "description",
+        content:
+          "Get in touch with Aegis Labs — now live on ARC Chain. Partner with us to secure the ARC ecosystem and the future of Web3.",
+      },
+      { property: "og:title", content: "Contact — Aegis Labs | Live on ARC Chain" },
+      {
+        property: "og:description",
+        content: "⚡ Live on ARC Chain. Secure The Future of ARC Ecosystem. Contact Aegis Labs.",
+      },
     ],
   }),
 });
 
 const contactOptions = [
-  { icon: MessageSquare, label: "X / Twitter", href: "https://x.com/AegisLabsEth", desc: "Follow us for real-time updates, threat alerts, and security insights." },
-  { icon: Mail, label: "Telegram", href: "https://t.me/AegisLabsOfficial", desc: "Join the community for discussions, support, and early access." },
-  { icon: Code2, label: "GitHub", href: "https://github.com/AegisLabs-Security", desc: "Explore our open-source tools, SDKs, and security infrastructure." },
-  { icon: FileText, label: "Whitepaper", href: "https://aegislabs.gitbook.io/aegis-labs-whitepaper", desc: "Read the full Aegis Labs whitepaper and security architecture." },
+  {
+    icon: MessageSquare,
+    label: "X / Twitter",
+    href: "https://x.com/AegisLabsArc",
+    desc: "Follow us for ARC Chain launch updates, real-time threat alerts, and security insights.",
+  },
+  {
+    icon: Code2,
+    label: "GitHub",
+    href: "https://github.com/AegisLabs-Security",
+    desc: "Explore our open-source tools, SDKs, and ARC security infrastructure.",
+  },
+  {
+    icon: FileText,
+    label: "Whitepaper",
+    href: "https://aegislabs.gitbook.io/aegis-labs-whitepaper",
+    desc: "Read the full Aegis Labs whitepaper and ARC-native security architecture.",
+  },
 ];
 
 const partnershipAreas = [
-  { icon: Shield, title: "Protocol Security", desc: "Integrate Aegis Shield into your DeFi protocol for real-time security monitoring." },
-  { icon: Users, title: "Ecosystem Partnership", desc: "Join the Aegis ecosystem to provide security services to your users." },
-  { icon: Code2, title: "Developer Integration", desc: "Access APIs, SDKs, and security feeds to build secure Web3 applications." },
+  {
+    icon: Shield,
+    title: "ARC Protocol Security",
+    desc: "Integrate Aegis Shield into your ARC-native DeFi protocol for real-time security monitoring.",
+  },
+  {
+    icon: Users,
+    title: "ARC Ecosystem Partner",
+    desc: "Join the Aegis ARC ecosystem to provide security services to your ARC Chain users.",
+  },
+  {
+    icon: Code2,
+    title: "ARC Developer SDK",
+    desc: "Access ARC-native APIs, SDKs, and security feeds to build secure dApps on ARC Chain.",
+  },
 ];
 
 function Contact() {
@@ -41,12 +74,14 @@ function Contact() {
         <section className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
           <ScrollReveal>
             <div className="text-center mb-16">
-              <p className="text-xs tracking-widest text-neon uppercase mb-3">Contact</p>
+              <p className="text-xs tracking-widest text-neon uppercase mb-3">⚡ Contact</p>
               <h1 className="text-3xl sm:text-4xl font-bold">
-                Protect The Future <span className="neon-text">Of Web3</span>
+                Secure The Future <span className="neon-text">Of ARC Chain</span>
               </h1>
               <p className="mt-4 text-muted-foreground max-w-xl mx-auto">
-                Secure your protocol, infrastructure, smart contracts, and users with next-generation AI-powered blockchain defense systems.
+                Aegis Labs is live on ARC Chain. Secure your protocol, infrastructure, smart
+                contracts, and ARC ecosystem users with next-generation AI-powered blockchain
+                defense systems native to ARC.
               </p>
             </div>
           </ScrollReveal>
@@ -64,7 +99,9 @@ function Contact() {
                     <item.icon className="h-6 w-6 text-neon" />
                   </div>
                   <div>
-                    <h3 className="text-base font-semibold text-foreground group-hover:text-neon transition-colors">{item.label}</h3>
+                    <h3 className="text-base font-semibold text-foreground group-hover:text-neon transition-colors">
+                      {item.label}
+                    </h3>
                     <p className="text-sm text-muted-foreground mt-1">{item.desc}</p>
                   </div>
                 </a>
@@ -95,7 +132,11 @@ function Contact() {
 
           <ScrollReveal>
             <div className="text-center">
-              <a href="https://aegislabs.gitbook.io/aegis-labs-whitepaper" target="_blank" className="neon-btn rounded-xl px-8 py-4 text-sm tracking-wider inline-block">
+              <a
+                href="https://aegislabs.gitbook.io/aegis-labs-whitepaper"
+                target="_blank"
+                className="neon-btn rounded-xl px-8 py-4 text-sm tracking-wider inline-block"
+              >
                 Read Whitepaper
               </a>
             </div>

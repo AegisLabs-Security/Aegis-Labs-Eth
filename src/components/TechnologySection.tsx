@@ -2,15 +2,51 @@ import { Brain, Search, Wallet, Globe, Layers, BarChart3, Zap, Lock, Shield } fr
 import ScrollReveal from "./ScrollReveal";
 
 const modules = [
-  { icon: Brain, title: "AI Detection Engine", desc: "Neural network-based anomaly detection across EVM chains" },
-  { icon: Search, title: "Smart Contract Scanner", desc: "Static and dynamic analysis of contract bytecode" },
-  { icon: Wallet, title: "Wallet Risk Intelligence", desc: "Real-time wallet reputation and risk scoring" },
-  { icon: Globe, title: "Cross-Chain Monitoring", desc: "Unified security layer across bridges and rollups" },
-  { icon: Layers, title: "Layer 2 Security Engine", desc: "Specialized protection for rollup ecosystems" },
-  { icon: BarChart3, title: "Threat Analytics", desc: "Real-time dashboards and predictive threat modeling" },
-  { icon: Zap, title: "Autonomous Response", desc: "Automated incident containment and remediation" },
-  { icon: Lock, title: "Quantum Encryption", desc: "Post-quantum lattice-based cryptographic defense" },
-  { icon: Shield, title: "Infrastructure Defense", desc: "Node, validator, and RPC endpoint protection" },
+  {
+    icon: Brain,
+    title: "AI Detection Engine",
+    desc: "Neural network-based anomaly detection on ARC Chain and EVM-compatible networks",
+  },
+  {
+    icon: Search,
+    title: "Smart Contract Scanner",
+    desc: "Static and dynamic bytecode analysis for ARC-native smart contracts",
+  },
+  {
+    icon: Wallet,
+    title: "Wallet Risk Intelligence",
+    desc: "Real-time wallet reputation and risk scoring across the ARC ecosystem",
+  },
+  {
+    icon: Globe,
+    title: "Cross-Chain Monitoring",
+    desc: "Unified security layer bridging ARC Chain to leading L1 and L2 networks",
+  },
+  {
+    icon: Layers,
+    title: "ARC Security Engine",
+    desc: "Specialized protection for ARC rollup architecture and native protocols",
+  },
+  {
+    icon: BarChart3,
+    title: "Threat Analytics",
+    desc: "Real-time dashboards and predictive threat modeling for ARC Chain",
+  },
+  {
+    icon: Zap,
+    title: "Autonomous Response",
+    desc: "Automated incident containment on ARC with zero human intervention",
+  },
+  {
+    icon: Lock,
+    title: "Quantum Encryption",
+    desc: "Post-quantum cryptographic defense native to the ARC network",
+  },
+  {
+    icon: Shield,
+    title: "Infrastructure Defense",
+    desc: "ARC node, validator, and RPC endpoint protection suite",
+  },
 ];
 
 export default function TechnologySection() {
@@ -19,10 +55,11 @@ export default function TechnologySection() {
       <div className="relative z-10 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <ScrollReveal>
           <div className="text-center mb-16">
-            <p className="text-xs tracking-widest text-neon uppercase mb-3">Technology Stack</p>
-            <h2 className="text-3xl sm:text-4xl font-bold">Security Architecture</h2>
+            <p className="text-xs tracking-widest text-neon uppercase mb-3">⚡ Technology Stack</p>
+            <h2 className="text-3xl sm:text-4xl font-bold">ARC-Native Security Architecture</h2>
             <p className="mt-4 text-muted-foreground max-w-xl mx-auto">
-              A modular, AI-first security infrastructure designed for the Ethereum ecosystem.
+              A modular, AI-first security infrastructure engineered natively for ARC Chain and the
+              multi-chain ecosystem.
             </p>
           </div>
         </ScrollReveal>

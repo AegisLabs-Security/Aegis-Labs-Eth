@@ -61,7 +61,14 @@ export default function Navbar() {
             onClick={() => setMobileOpen(!mobileOpen)}
             className="lg:hidden text-foreground p-2"
           >
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2"
+            >
               {mobileOpen ? (
                 <path d="M18 6L6 18M6 6l12 12" />
               ) : (
@@ -86,8 +93,15 @@ export default function Navbar() {
               </Link>
             ))}
             <div className="flex flex-col gap-2 pt-4">
-              <Link to="/about" className="neon-btn-outline rounded-lg px-5 py-3 text-sm text-center">Learn More</Link>
-              <Link to="/contact" className="neon-btn rounded-lg px-5 py-3 text-sm text-center">Get In Touch</Link>
+              <Link
+                to="/about"
+                className="neon-btn-outline rounded-lg px-5 py-3 text-sm text-center"
+              >
+                Learn More
+              </Link>
+              <Link to="/contact" className="neon-btn rounded-lg px-5 py-3 text-sm text-center">
+                Get In Touch
+              </Link>
             </div>
           </div>
         </div>

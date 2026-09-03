@@ -9,6 +9,7 @@ import robinhoodLogo from "@/assets/chains/robinhood.png";
 import arcLogo from "@/assets/chains/ARC.jpg";
 
 const chains = [
+  { name: "ARC Chain", logo: arcLogo, featured: true },
   { name: "Ethereum", logo: ethereumLogo },
   { name: "Arbitrum", logo: arbitrumLogo },
   { name: "Base", logo: baseLogo },
@@ -16,7 +17,6 @@ const chains = [
   { name: "BSC", logo: bscLogo },
   { name: "Monad", logo: monadLogo },
   { name: "Robinhood", logo: robinhoodLogo },
-  { name: "ARC", logo: arcLogo },
 ];
 
 export default function EcosystemSection() {
@@ -25,10 +25,15 @@ export default function EcosystemSection() {
       <div className="relative z-10 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <ScrollReveal>
           <div className="text-center mb-16">
-            <p className="text-xs tracking-widest text-neon uppercase mb-3">Ecosystem Coverage</p>
-            <h2 className="text-3xl sm:text-4xl font-bold">Ethereum & Layer 2 Networks</h2>
+            <p className="text-xs tracking-widest text-neon uppercase mb-3">
+              ⚡ Ecosystem Coverage
+            </p>
+            <h2 className="text-3xl sm:text-4xl font-bold">
+              ARC Chain First — Multi-Chain Security
+            </h2>
             <p className="mt-4 text-muted-foreground max-w-xl mx-auto">
-              Unified security infrastructure across the entire Ethereum ecosystem.
+              Launching natively on ARC Chain with unified security infrastructure expanding across
+              leading L1 and L2 networks.
             </p>
           </div>
         </ScrollReveal>
@@ -36,12 +41,34 @@ export default function EcosystemSection() {
         <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
           {chains.map((c, i) => (
             <ScrollReveal key={c.name} delay={i * 0.06}>
-              <div className="glow-card rounded-2xl p-6 text-center group cursor-default">
-                <div className="h-14 w-14 rounded-full mx-auto mb-4 flex items-center justify-center overflow-hidden">
-                  <img src={c.logo} alt={`${c.name} logo`} loading="lazy" width={48} height={48} className="w-12 h-12 object-contain" />
+              <div
+                className={`rounded-2xl p-6 text-center group cursor-default relative ${c.featured ? "glow-card border-2 border-neon/60 shadow-lg shadow-neon/20" : "glow-card"}`}
+              >
+                {c.featured && (
+                  <div className="absolute -top-2 left-1/2 -translate-x-1/2 px-2 py-0.5 rounded-full bg-neon text-background text-[10px] font-bold tracking-wider uppercase">
+                    Live
+                  </div>
+                )}
+                <div
+                  className={`h-14 w-14 rounded-full mx-auto mb-4 flex items-center justify-center overflow-hidden ${c.featured ? "bg-neon/10 ring-2 ring-neon/40" : ""}`}
+                >
+                  <img
+                    src={c.logo}
+                    alt={`${c.name} logo`}
+                    loading="lazy"
+                    width={48}
+                    height={48}
+                    className="w-12 h-12 object-contain"
+                  />
                 </div>
-                <h3 className="text-sm font-semibold text-foreground">{c.name}</h3>
-                <div className="mt-2 h-1 w-8 mx-auto rounded-full bg-neon/30 group-hover:bg-neon/60 transition-colors" />
+                <h3
+                  className={`text-sm font-semibold ${c.featured ? "text-neon" : "text-foreground"}`}
+                >
+                  {c.name}
+                </h3>
+                <div
+                  className={`mt-2 h-1 w-8 mx-auto rounded-full transition-colors ${c.featured ? "bg-neon" : "bg-neon/30 group-hover:bg-neon/60"}`}
+                />
               </div>
             </ScrollReveal>
           ))}

@@ -1,8 +1,7 @@
 import ScrollReveal from "./ScrollReveal";
 
 const socials = [
-  { label: "X / Twitter", href: "https://x.com/AegisLabsEth", icon: "𝕏" },
-  { label: "Telegram", href: "https://t.me/AegisLabsOfficial", icon: "✈" },
+  { label: "X / Twitter", href: "https://x.com/AegisLabsArc", icon: "𝕏" },
   { label: "GitHub", href: "https://github.com/AegisLabs-Security", icon: "⌨" },
   { label: "Whitepaper", href: "https://aegislabs.gitbook.io/aegis-labs-whitepaper", icon: "📄" },
 ];
@@ -13,10 +12,11 @@ export default function SocialSection() {
       <div className="relative z-10 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <ScrollReveal>
           <div className="text-center mb-8">
-            <p className="text-xs tracking-widest text-neon uppercase mb-3">Community</p>
-            <h2 className="text-2xl font-bold">Join The Shield</h2>
+            <p className="text-xs tracking-widest text-neon uppercase mb-3">⚡ Community</p>
+            <h2 className="text-2xl font-bold">Join The ARC Shield Network</h2>
             <p className="mt-2 text-muted-foreground text-sm max-w-lg mx-auto">
-              Aegis Shield is not just a product. It is a movement to make Web3 safer. Join users, builders, researchers, and security contributors.
+              Aegis Shield is now live on ARC Chain. Join the movement — users, builders,
+              researchers, and security contributors protecting the ARC ecosystem together.
             </p>
           </div>
         </ScrollReveal>
@@ -32,7 +32,9 @@ export default function SocialSection() {
                 className="glow-card rounded-xl px-6 py-4 flex items-center gap-3 group"
               >
                 <span className="text-lg">{s.icon}</span>
-                <span className="text-sm font-medium text-foreground group-hover:text-neon transition-colors">{s.label}</span>
+                <span className="text-sm font-medium text-foreground group-hover:text-neon transition-colors">
+                  {s.label}
+                </span>
               </a>
             ))}
           </div>

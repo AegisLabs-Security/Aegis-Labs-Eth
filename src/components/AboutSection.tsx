@@ -29,13 +29,20 @@ export default function AboutSection() {
 
           <div>
             <ScrollReveal>
-              <p className="text-xs tracking-widest text-neon uppercase mb-3">About Aeigis Labs</p>
-              <h2 className="text-3xl sm:text-4xl font-bold mb-6">Building The Next-Generation Defense Layer</h2>
+              <p className="text-xs tracking-widest text-neon uppercase mb-3">About Aegis Labs</p>
+              <h2 className="text-3xl sm:text-4xl font-bold mb-6">
+                Live on ARC Chain — The Security Layer is Active
+              </h2>
               <p className="text-muted-foreground leading-relaxed mb-4">
-                Aeigis Labs is building the most advanced security infrastructure for Ethereum, Layer 2 networks, DeFi protocols, smart contracts, and Web3 applications.
+                Aegis Labs is now live on ARC Chain — deploying the most advanced AI-powered
+                security infrastructure to protect ARC-native DeFi protocols, smart contracts,
+                dApps, and every user in the ARC ecosystem.
               </p>
               <p className="text-muted-foreground leading-relaxed mb-8">
-                Our platform combines AI-powered threat intelligence, real-time blockchain monitoring, quantum-resistant cryptography, and autonomous incident response to create a future-proof security foundation for decentralized systems.
+                Our platform combines AI-driven threat intelligence, real-time on-chain monitoring
+                across the ARC network, quantum-resistant cryptography, and autonomous incident
+                response to create an impenetrable security foundation for the ARC Chain
+                decentralized economy.
               </p>
             </ScrollReveal>
 

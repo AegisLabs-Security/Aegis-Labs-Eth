@@ -24,7 +24,7 @@ function Counter({ end, suffix = "", label }: { end: number; suffix?: string; la
           requestAnimationFrame(tick);
         }
       },
-      { threshold: 0.5 }
+      { threshold: 0.5 },
     );
     observer.observe(el);
     return () => observer.disconnect();
@@ -32,17 +32,20 @@ function Counter({ end, suffix = "", label }: { end: number; suffix?: string; la
 
   return (
     <div ref={ref} className="text-center">
-      <div className="text-2xl sm:text-3xl font-bold neon-text">{count.toLocaleString()}{suffix}</div>
+      <div className="text-2xl sm:text-3xl font-bold neon-text">
+        {count.toLocaleString()}
+        {suffix}
+      </div>
       <div className="text-xs text-muted-foreground mt-1 tracking-wider uppercase">{label}</div>
     </div>
   );
 }
 
 const metrics = [
-  { end: 500, suffix: "M+", label: "Transactions Protected" },
-  { end: 1200, suffix: "+", label: "Contracts Scanned" },
+  { end: 1, suffix: "", label: "ARC Chain Live" },
   { end: 99, suffix: ".99%", label: "System Uptime" },
   { end: 24, suffix: "/7", label: "AI Monitoring" },
+  { end: 50, suffix: "M+", label: "TX Capacity / Day" },
 ];
 
 export default function HeroSection() {
@@ -57,47 +60,82 @@ export default function HeroSection() {
       <div className="absolute top-1/3 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] rounded-full bg-neon/10 blur-[120px] pointer-events-none" />
 
       <div className="relative z-10 mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 pt-32 pb-20 text-center">
-        <div className="inline-flex items-center gap-2 glass-panel rounded-full px-5 py-2 mb-8 animate-fade-up" style={{ animationDelay: "0.1s" }}>
-          <span className="h-2 w-2 rounded-full bg-neon animate-pulse" />
-          <span className="text-xs tracking-wider text-muted-foreground uppercase">Aegis Labs — AI-Powered Web3 Security</span>
+        <div
+          className="inline-flex items-center gap-2 glass-panel rounded-full px-5 py-2 mb-4 animate-fade-up border border-neon/50"
+          style={{ animationDelay: "0.05s" }}
+        >
+          <span className="h-2.5 w-2.5 rounded-full bg-green-400 animate-pulse shadow-lg shadow-green-400/50" />
+          <span className="text-xs tracking-[0.2em] text-neon uppercase font-bold">
+            ⚡ OFFICIAL LAUNCH — LIVE ON ARC CHAIN
+          </span>
         </div>
 
-        <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold leading-[0.95] tracking-tight animate-fade-up" style={{ animationDelay: "0.3s" }}>
-          Scan Before You Trust.
+        <div
+          className="inline-flex items-center gap-2 glass-panel rounded-full px-5 py-2 mb-8 animate-fade-up"
+          style={{ animationDelay: "0.1s" }}
+        >
+          <span className="h-2 w-2 rounded-full bg-neon animate-pulse" />
+          <span className="text-xs tracking-wider text-muted-foreground uppercase">
+            Aegis Labs — AI-Powered Web3 Security
+          </span>
+        </div>
+
+        <h1
+          className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold leading-[0.95] tracking-tight animate-fade-up"
+          style={{ animationDelay: "0.3s" }}
+        >
+          Launching on <span className="neon-text">ARC Chain</span>
           <br />
-          <span className="neon-text">Protect Before You Connect.</span>
+          Security. Activated.
         </h1>
 
-        <p className="mt-6 text-base sm:text-lg text-muted-foreground max-w-2xl mx-auto leading-relaxed animate-fade-up" style={{ animationDelay: "0.5s" }}>
-Aegis Labs is the AI-powered security layer , built to protect users, builders, and protocols from on-chain threats before they become real losses.        </p>
+        <p
+          className="mt-6 text-base sm:text-lg text-muted-foreground max-w-2xl mx-auto leading-relaxed animate-fade-up"
+          style={{ animationDelay: "0.5s" }}
+        >
+          Aegis Labs is now live on ARC Chain — the AI-powered security layer protecting every
+          transaction, contract, and user in the ARC ecosystem from on-chain threats before they
+          become real losses.{" "}
+        </p>
 
-        <div className="mt-8 flex flex-wrap items-center justify-center gap-4 animate-fade-up" style={{ animationDelay: "0.5s" }}>
+        <div
+          className="mt-8 flex flex-wrap items-center justify-center gap-4 animate-fade-up"
+          style={{ animationDelay: "0.5s" }}
+        >
           <Link to="/about" className="neon-btn rounded-xl px-8 py-4 text-sm tracking-wider">
             Learn More
           </Link>
-          <Link to="/contact" className="neon-btn-outline rounded-xl px-8 py-4 text-sm tracking-wider">
+          <Link
+            to="/contact"
+            className="neon-btn-outline rounded-xl px-8 py-4 text-sm tracking-wider"
+          >
             Get In Touch
           </Link>
         </div>
 
-        <div className="mt-10 glass-panel rounded-xl p-6 max-w-2xl mx-auto animate-fade-up" style={{ animationDelay: "0.7s" }}>
-          <div className="text-sm text-muted-foreground mb-2 tracking-wider uppercase">$AEGIS Contract Address</div>
-          <div className="bg-background/50 rounded-lg px-4 py-3 font-mono text-sm text-foreground break-all select-all">
-            0xfc4dbd98c63ec58fecf3b0bcf617fb079e0a2b5c
+        <div
+          className="mt-10 glass-panel rounded-xl p-6 max-w-2xl mx-auto animate-fade-up border border-neon/40"
+          style={{ animationDelay: "0.7s" }}
+        >
+          <div className="text-xs tracking-[0.2em] text-neon uppercase mb-1 font-bold">
+            $AEGIS — ARC CHAIN CONTRACT
+          </div>
+          <div className="bg-background/50 rounded-lg px-4 py-3 font-mono text-sm text-muted-foreground italic tracking-widest select-all text-center">
+            ⏳ Coming Soon
           </div>
           <div className="mt-4 flex flex-wrap items-center justify-center gap-4">
-            <a 
-              href="https://ponsfamily.com/launchpad/0xfc4dbd98c63ec58fecf3b0bcf617fb079e0a2b5c" 
-              target="_blank" 
-              rel="noopener noreferrer" 
+            <a
+              href="https://radardex.pro"
+              target="_blank"
+              rel="noopener noreferrer"
               className="neon-btn rounded-xl px-6 py-3 text-sm tracking-wider"
             >
               Buy $AEGIS
             </a>
-            <a 
-              href="https://dexscreener.com/robinhood/0x868070803d21dd6dbc5d68eb1272e9e7178425cf" 
-              target="_blank" 
-              rel="noopener noreferrer" 
+            <a
+              href="https://radardex.pro"
+              target="_blank"
+              rel="noopener noreferrer"
               className="neon-btn-outline rounded-xl px-6 py-3 text-sm tracking-wider"
             >
               View Chart
@@ -105,7 +143,10 @@ Aegis Labs is the AI-powered security layer , built to protect users, builders, 
           </div>
         </div>
 
-        <div className="mt-20 grid grid-cols-2 md:grid-cols-4 gap-6 animate-fade-up" style={{ animationDelay: "0.9s" }}>
+        <div
+          className="mt-20 grid grid-cols-2 md:grid-cols-4 gap-6 animate-fade-up"
+          style={{ animationDelay: "0.9s" }}
+        >
           {metrics.map((m) => (
             <div key={m.label} className="glass-panel rounded-xl p-4">
               <Counter {...m} />

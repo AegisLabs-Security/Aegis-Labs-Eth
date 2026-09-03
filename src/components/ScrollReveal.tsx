@@ -20,7 +20,7 @@ export default function ScrollReveal({ children, className = "", delay = 0 }: Pr
           observer.disconnect();
         }
       },
-      { threshold: 0.1, rootMargin: "-30px" }
+      { threshold: 0.1, rootMargin: "-30px" },
     );
     observer.observe(el);
     return () => observer.disconnect();

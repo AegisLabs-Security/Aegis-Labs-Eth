@@ -13,19 +13,27 @@ export default function CTASection() {
       <div className="relative z-10 mx-auto max-w-3xl px-4 sm:px-6 lg:px-8 text-center">
         <ScrollReveal>
           <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold leading-tight">
-            Protect The Future
+            Secure The Future
             <br />
-            <span className="neon-text">Of Ethereum</span>
+            <span className="neon-text">Of ARC Chain</span>
           </h2>
           <p className="mt-6 text-muted-foreground max-w-xl mx-auto">
-            Secure your protocol, infrastructure, smart contracts, and users with next-generation AI-powered blockchain defense systems.
+            Aegis Shield is live on ARC Chain. Secure your protocol, infrastructure, smart
+            contracts, and users with AI-powered blockchain defense native to the ARC ecosystem.
           </p>
         </ScrollReveal>
 
         <ScrollReveal delay={0.2}>
           <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
-            <a href="/about" className="neon-btn rounded-xl px-8 py-4 text-sm tracking-wider">Learn More</a>
-            <a href="/contact" className="neon-btn-outline rounded-xl px-8 py-4 text-sm tracking-wider">Contact Team</a>
+            <a href="/about" className="neon-btn rounded-xl px-8 py-4 text-sm tracking-wider">
+              Learn More
+            </a>
+            <a
+              href="/contact"
+              className="neon-btn-outline rounded-xl px-8 py-4 text-sm tracking-wider"
+            >
+              Contact Team
+            </a>
           </div>
         </ScrollReveal>
       </div>

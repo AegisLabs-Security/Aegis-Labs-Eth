@@ -15,15 +15,26 @@ export const Route = createFileRoute("/")({
   component: Index,
   head: () => ({
     meta: [
-      { title: "Aegis Labs — Scan Before You Trust. Protect Before You Connect." },
-      { name: "description", content: "Aegis Shield is the AI-powered security layer built to protect users, builders, and protocols from on-chain threats. Smart contract scanning, wallet risk intelligence, phishing detection, and real-time threat alerts." },
-      { property: "og:title", content: "Aegis Labs — Web3 Security Infrastructure" },
-      { property: "og:description", content: "Scan Before You Trust. Protect Before You Connect. AI-powered blockchain defense for Web3." },
+      { title: "Aegis Labs — Live on ARC Chain | Security Layer for Web3" },
+      {
+        name: "description",
+        content:
+          "Aegis Shield is now live on ARC Chain. AI-powered security layer protecting users, builders, and protocols from on-chain threats. Smart contract scanning, wallet risk intelligence, and real-time threat monitoring — native to ARC.",
+      },
+      { property: "og:title", content: "Aegis Labs — Live on ARC Chain | AI Security Layer" },
+      {
+        property: "og:description",
+        content:
+          "⚡ Live on ARC Chain — Scan Before You Trust. Protect Before You Connect. AI-powered blockchain defense native to ARC ecosystem.",
+      },
       { property: "og:type", content: "website" },
       { property: "og:image", content: "/og-image.jpg" },
       { name: "twitter:card", content: "summary_large_image" },
-      { name: "twitter:title", content: "Aegis Labs — Web3 Security Infrastructure" },
-      { name: "twitter:description", content: "Scan Before You Trust. Protect Before You Connect." },
+      { name: "twitter:title", content: "Aegis Labs — Live on ARC Chain | Security Layer" },
+      {
+        name: "twitter:description",
+        content: "⚡ Live on ARC Chain. Scan Before You Trust. Protect Before You Connect.",
+      },
       { name: "twitter:image", content: "/og-image.jpg" },
     ],
   }),
